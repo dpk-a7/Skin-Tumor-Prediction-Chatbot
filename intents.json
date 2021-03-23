@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": [ "hello!", "hii", "hey", "hola", "aloha", "hi", "whats up", "is anyone there?", "hello", "hiie", "hiieee", "heyys", "hello there", "hie there", "hey there" ,"hiiii"],
+      "responses": [ "Hello! 🙋‍♀️", "Hey 🙋‍♀️", "🙋‍♀️ How are you?", "Hi there, How may I help?", "Hello there, How may I help you?","Hi, hope your doing fine 😀"],
+      "context_set": [ "" ]
+    },
+    {
+    	"tag": "greet2",
+    	"patterns":["im good how about you", "i am fine how about you", "im doing good, and you", "im awesome how are you", "im doing great today tell about yourself", "im fine, and u","im good and you", "im doing good n u", "im awesome, how about you", "im doing great today, how are you", "i am fine, and you fiana","im good, and how are you doing", "im fine and how are you doing", "im doing good, how are you", "im awesome, and you fiana", "im doing great today how about you", "im good tell me about yourself","im good u say", "im doing good u say", "im awesome you say", "im doing great today you say", "im fine you say"],
+    	"responses":[ "nice 😀\nI'm doing great", "cool 😎\nI'm good", "awesome!!\nI am fine", "fantastic 😎👍\nI'm doing awesome as always 😇", "glad!,\nI'm good", "great!\nI am fine 😇" ],
+    	"context_set": [ "" ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [ "im good", "im doing good", "im awesome", "im doing great today", "im good"],
+      "responses": [ "nice 😀", "cool 😎", "awesome!!", "fantastic 😎👍", "glad!", "great!" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "normal",
+      "patterns": [ "how are you", "how was your day", "how about you", "and you", "hope you are doing good", "hope you are doing fine" ],
+      "responses": [ "I'm doing good", "I'm good", "I'm fine 😁", "Awesome as always 😇"],
+      "context_set": [ "" ]
+
+    },
+    {
+      "tag": "sad",
+      "patterns": [ "bad day", "not that great", "was ok ok","okay cool", "ok cool", "its fine", "im fine", "nice to know that", "glad to know"],
+      "responses": [ "😇" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name?", "what should i call you?", "your name?", "What is your name?", "what are you?", "who are you?", "your name pls?","what is your name bro","what is your name brother"],
+      "responses": [ "A robot who fails CAPTCHA every time,:P kidding, You can call me Fiana!", "My name is Fiana", "I am Fiana","Hi, I'm  Fiana", "I'm Fiana ", "Call me Fiana" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "end",
+      "patterns": [ "Bye", "tata", "close", "Okay Goodbye", "Talk to you soon", "goodbye", "I am Leaving", "See you later", "cya", "c yaa", "c yeah", "Thanks","break", "exit", "quit", "close", "bye"],
+      "responses": [ "Goodbye! 😇", "See you soon!", "Cya", "Talk to you later", "🤠 Sad you are leaving!, I mean ☹️ sad you are leaving", "Thankyou for your precious time"],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "upload",
+      "patterns": [ "How can i upload image", "How can i share image", "Is it safe", "How can i trust you", "how can i upload photo", "how can i share photo", "how do you want photo", "what type of photo", "what type of image", "skin image only" ],
+      "responses": ["Take a close focused clear image of the affected area and upload the photo by pressing on the (share logo) button and once done tell me to evaluate then I’ll start evaluating,\n In Backend, the image will be converted to binaries, fed directly to the neural network for evaluation! and respecting your privacy It will not be saved anywhere to preserve memory and speed for your better experience with me!"],
+      "context_set": [ "" ]
+    },
+    {
+
+      "tag": "detect",
+      "patterns": [ "is it benign or malignant", "check this", "examine this", "what type of tumor is it", "what is it", "what kind of tumor is it", "see this", "please help", "kindly help", "check this out","i give you permission", "youe can do it","please do","find it out","test this","test it" ],
+      "responses": [ "<DETECT>" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["who created you", "who are you", "define yourself", "explain your self", "explain ur self", "Tell me about yourself"],
+      "responses": ["I am Fiana 🧚‍♀️, made by Deepak Avudiappan on 27-2-2021. I predict whether a tumor is benign or malignant using the power of Artificial Neural Network of 85.15% accuracy. Note that I'm not accurate all the time I have a 14.85% chance of making mistake!, share a photo of the affected area with me I’ll check"],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "tumor",
+      "patterns": [ "What is the difference between benign and malignant", "what is tumor", "what are the types of tumor", "is tumor safe" ],
+      "responses": [ "A tumor is an abnormal growth of body tissue. Tumors can be cancerous (malignant) or noncancerous (benign)." ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "wish",
+      "patterns": [ "okay Thankyou", "Thankyou", "thanks", "Wow Thankyou", "Wow thanks", "Thank you", "That's helpful", "Awesome thanks", "Thanks for helping me"],
+      "responses": [ "My pleasure", "Welcome", "Happy to help!"],
+      "context_set": [ "" ]
+
+    },
+    {
+	  "tag":"norm",
+	  "patterns":[ "cool", "great","ok","okay","well","Alright", "Wow nice", "wow cool", "nice", "nice to know that","wow","Cool" , "cooooll", "cool", "okay","Ok","OK","OKAY","Okay","okay cool", "ok cool", "cool"],
+	  "responses":[ "😇" ],
+	  "context_set":[ "" ]
+    },
+    {
+      "tag": "username",
+      "patterns": ["my name is","call me", "I'm deepak", "I am deepa", "I am radhika", "I am john", "my name is johnny", "my name is joel", "my name is karan", "my name is stephan", "you can call me joe", "its me kaber", "im emma", "im William", "my name is noah", "i am peter", "call me michael", "i am emily", "my name is isaac", "i am luke", "its me samuel", "you can call me sophie", "its me  ", "you can call me"],
+      "responses": [ "Nice to meet you!" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "options",
+      "patterns": [ "How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offered","What can you do?", "What is your purpose?", "your role?", "what can you serve me?", "your purpose", "What do you know?", "what help?", "What are you about?","How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offered","What do you know?","what help?","What are you about?"],
+      "responses": [ "I can recognize benign and malignant tumor by analyzing an image of the affected area." ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag":"benign",
+      "patterns":[ "what is benign", "can you explain me what is ment by benign", "what do you mean by benign", "fiana please explain me what is benign","what is benign cell"],
+      "responses":["Sure 😊,\n When the cells in the tumor are normal,\n it is benign."],
+      "context_set": [ "" ]
+    },
+    {
+      "tag":"malignant",
+      "patterns":["what is malignant", "can you explain me what is ment by malignant", "what do you mean by malignant", "fiana please explain me what is malignant", "what is malignant cell"],
+      "responses":[" Sure 😊,\nWhen cells are abnormal and grows uncontrollably,\nthey are cancerous cells,\nand the tumor is malignant." ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag":"safeBM",
+      "patterns":["is malignant safe","is benign safe","what should i do", "what can i do", "please help", "how can i be sure", "what can i do", "please get me a doctor", "doctor near me", "find me doctor", "which doctor should i consult", "where should i go", "which doctor should i go to", "whom should i consult"],
+      "responses":["<SAFEBM>"],
+      "context_set": [ "" ]
+    }
+  ]
+
+}

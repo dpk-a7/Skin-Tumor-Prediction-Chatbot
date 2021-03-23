@@ -1,0 +1,9 @@
+tensorflow==2.4.1
+flask==1.1.2
+twilio==6.53.0
+pillow==8.1.0
+scikit-image==0.17.2
+google-search==1.1.0
+requests==2.25.1
+nltk==3.5
+numpy==1.19.2
