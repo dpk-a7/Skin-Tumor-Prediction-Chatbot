@@ -13,6 +13,14 @@ or You can make use of ngrok.<br>
 
 # Model
 ![image](https://user-images.githubusercontent.com/55245100/112139129-68b86f80-8bf8-11eb-8b0f-9c18eb7eb1f6.png)
+
+![image](https://user-images.githubusercontent.com/55245100/112139461-cc429d00-8bf8-11eb-9076-430359c7162a.png)
+
+# Training
 ![image](https://user-images.githubusercontent.com/55245100/112139093-5dfdda80-8bf8-11eb-9f34-28c312ecfd60.png)
-https://raw.githubusercontent.com/dpk-a7/Skin-Tumor-Prediction-Chatbot/9a6c767249509854af3ebcb9e4e9cc9b8d68f3c3/visuals/epoch_accuracy(2).svg
-https://raw.githubusercontent.com/dpk-a7/Skin-Tumor-Prediction-Chatbot/9a6c767249509854af3ebcb9e4e9cc9b8d68f3c3/visuals/epoch_loss(2).svg
+
+# Accuracy
+![image](https://user-images.githubusercontent.com/55245100/112139574-f005e300-8bf8-11eb-97f0-153524ae478a.png)
+
+# Loss
+![image](https://user-images.githubusercontent.com/55245100/112139606-fac07800-8bf8-11eb-994e-8705cd87cc83.png)
